@@ -19,6 +19,13 @@
        custom:TitleColor="@color/colorAccent"
        custom:TitleText="朋友圈"
        >
-
    </com.yangyang.myapplication.TopBar>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/imageView"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>

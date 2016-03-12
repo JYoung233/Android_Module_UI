@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void run() {
             Message msg=handler.obtainMessage();
-            msg.what=0x123;//这里的信息号是随便填的吗
+            msg.what=0x123;//这里的信息要注意
             try {
                 Thread.sleep(1000);
                 //msg.sendToTarget();
